@@ -27,9 +27,13 @@ h1 {
 
 header div.leatherBorder,
 footer div.leatherBorder {
-    height: 2rem;
+    height: 4rem;
+    width: 100%;
     background: #1e3234 url("../images/LeatherBorder.jpg") repeat-x bottom;
     background-size: auto 180%;
+    position: absolute;
+    top: -2rem;
+    z-index: 10;
 }
 
 header div.headerBackground {
@@ -37,15 +41,15 @@ header div.headerBackground {
 }
 
 header div.logoBanner {
-    background: rgba(16, 46, 63, 0) url("../images/banner.png") no-repeat;
+    background: rgba(16, 46, 63, 0) url("../images/banner.png") no-repeat center top;
     background-size: contain;
     width: 60vw;
-    max-width: 36rem;
+    max-width: 30rem;
     min-width: 16rem;
-    margin: 0 auto;
-    padding: 1rem 3rem 3rem; 
+    margin: 0 auto 0.5rem;
+    padding: 1rem 3rem 2rem; 
     position: relative;
-    top: -2rem;
+    z-index: 30;
 }
 
 header img.logo {
@@ -85,6 +89,7 @@ header ul.navMenu li a:hover {
 @media only screen and (max-width: 30rem) {
     header ul.navMenu {
         height: auto;
+        padding: 0 0 1rem;
     }
     header ul.navMenu li {
         float: none;
