@@ -170,6 +170,10 @@ main div.padContent {
     margin: 0 10vw;
 }
 
+main div.sectionBreak {
+    padding: 3rem 0;
+}
+
 main div.fourGridContainer {
     clear: both;
     margin-bottom: 1rem;
@@ -216,6 +220,18 @@ main div.centered img{
     margin: 0 auto 3rem;
     max-width: 30rem;
     width: 100%;
+}
+
+main div.socialMediaLogoContainer {
+    clear: both;
+    margin: 0 0 4.5rem;
+    text-align: center;
+}
+
+main div img.socialMediaLogo {
+    display: inline-block;
+    margin: 0 1rem;
+    width: 4.5rem;
 }
 
 @media only screen and (max-width: 60rem) {
