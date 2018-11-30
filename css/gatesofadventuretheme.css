@@ -33,12 +33,11 @@ h2 {
 
 header div.leatherBorder,
 footer div.leatherBorder {
-    height: 4rem;
+    height: 3rem;
     width: 100%;
     background: #1e3234 url("../images/LeatherBorder.jpg") repeat-x bottom;
     background-size: auto 180%;
     position: absolute;
-    top: -2rem;
     z-index: 10;
 }
 
@@ -120,7 +119,21 @@ footer div.leatherBorder {
     transform: scaleY(-1);
     filter: FlipV;
     -ms-filter: "FlipV";
-    height: 3rem;
+    height: 4.5rem;
+}
+
+footer div.leatherBorder p {
+    color: #e9da4f;
+    font-family: 'IM Fell Great Primer', serif;
+    font-weight: bold;
+    margin: 1rem;
+    -moz-transform: scaleY(-1);
+    -o-transform: scaleY(-1);
+    -webkit-transform: scaleY(-1);
+    text-align: center;
+    transform: scaleY(-1);
+    filter: FlipV;
+    -ms-filter: "FlipV";
 }
 
 main img.heroImage {
