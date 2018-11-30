@@ -6,7 +6,7 @@
 
 p {
     font-family: 'Bellefair', serif;
-    font-size: 1rem;
+    font-size: 1.15rem;
 }
 
 a {
@@ -24,11 +24,13 @@ h4 {
 h1 {
     font-size: 3rem;
     margin: 0 0 1.5rem;
+    text-align: center;
 }
 
 h2 {
-    font-size: 1.5rem;
+    font-size: 1.75rem;
     margin: 0 0 0.75rem;
+    text-align: center;
 }
 
 header div.leatherBorder,
